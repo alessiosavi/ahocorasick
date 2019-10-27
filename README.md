@@ -14,9 +14,10 @@ goarch: amd64
 pkg: github.com/alessiosavi/ahocorasick
 BenchmarkMatchWorks-8           42344499               275 ns/op              56 B/op          3 allocs/op
 BenchmarkContainsWorks-8        62986035               187 ns/op              56 B/op          3 allocs/op
+BenchmarkContainsTunedWorks-8   608337795             20.0 ns/op               0 B/op          0 allocs/op
 BenchmarkRegexpWorks-8           2241834              5372 ns/op             368 B/op          5 allocs/op
 BenchmarkMatchFails-8           62069413               174 ns/op               0 B/op          0 allocs/op
-BenchmarkContainsFails-8        160888270               74.2 ns/op             0 B/op          0 allocs/op
+BenchmarkContainsFails-8        160888270             74.2 ns/op               0 B/op          0 allocs/op
 BenchmarkRegexpFails-8           1000000             10282 ns/op               0 B/op          0 allocs/op
 BenchmarkLongMatchWorks-8        8081287              1462 ns/op              24 B/op          2 allocs/op
 BenchmarkLongContainsWorks-8    39643099               292 ns/op              24 B/op          2 allocs/op
